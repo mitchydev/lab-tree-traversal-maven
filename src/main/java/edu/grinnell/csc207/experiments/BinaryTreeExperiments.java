@@ -1,13 +1,14 @@
 package edu.grinnell.csc207.experiments;
 
-import edu.grinnell.csc207.util.BinaryTree;
-
 import java.io.PrintWriter;
+
+import edu.grinnell.csc207.util.BinaryTree;
 
 /**
  * A place to experiment with binary trees.
  */
 public class BinaryTreeExperiments {
+
   // +------+--------------------------------------------------------
   // | Main |
   // +------+
@@ -26,6 +27,11 @@ public class BinaryTreeExperiments {
     BinaryTree<String> tree = new BinaryTree<String>(strings);
 
     tree.dump(pen);
+    tree.elements01(pen);
+    pen.println("");
+    tree.elements02(pen);
+    pen.println("");
+    tree.print(pen);
     pen.close();
   } // main
 } // class BinaryTreeExperiments
