@@ -4,8 +4,8 @@ The latest version of the CSC-207 lab on tree traversal, now with Maven.
 
 Authors
 
-* Your name here
-* Your name here
+* Mitch Paiva
+* Jafar Jarrar
 * Samuel A. Rebelsky
 
 Acknowledgements
